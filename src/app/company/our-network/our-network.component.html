@@ -1,0 +1,120 @@
+<div class="container-fluid bg-info p-2">
+  <section class="bg-light p-3">
+  <div class="row">
+    <div class="col-md-5 col-lg-5">
+     
+      <h4 class="text-center">Network of Service Providers: What is it? </h4> 
+      <p class="">Almost every stage of selling our products can be aided by the Credence Service Provider Network, a collection of verified outside service providers. Providers are qualified and trained on our rules and procedures, and they fulfill a necessary set of standards. </p>
+      <mat-accordion>
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title> Find reliable assistance. </mat-panel-title>
+         
+          </mat-expansion-panel-header>
+          <p> We carefully analyze all service providers, keep an eye on their performance, and publish verified evaluations and ratings to help you choose the best support for your business.</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+          <mat-expansion-panel-header>
+            <mat-panel-title> Get in touch with convenience </mat-panel-title>
+            
+          </mat-expansion-panel-header>
+          
+          <p>You can manage communications from a single tool, request services from your preferred provider, and filter by service type, reviews and location.</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState.set(true)" (closed)="panelOpenState.set(false)">
+          <mat-expansion-panel-header>
+            <mat-panel-title> Submit a request for service. </mat-panel-title>
+           
+          </mat-expansion-panel-header>
+          <p>To get more information, select your preferred one and then select Contact Service Provider.<p>After describing what you're looking for and agreeing to give the provider your contact information, click Submit request.</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+    <div class="col-md-2 col-lg-2">
+      <img class="img-fluid rounded" loading="lazy" [src]="npath"  alt="How can we help you?">
+    </div>
+    <div class="col-md-5 col-lg-5 p-2">
+     
+<mat-tab-group>
+  <mat-tab label="West Bengal">
+
+
+
+    
+    <mat-card class="example-card" appearance="outlined">
+      
+     
+      <mat-card-content>
+       
+        <div class="container">
+          <div class="col-md-12">
+            <div class=" ">
+              <img class="img-fluid rounded-circle imgc"  [src]="ravipath" alt="">
+              <span class="text1">{{WbDurgapur}} <button type="button" class=" btn-outline-primary m-2 float-end">Contact Now</button></span>
+          </div>
+        </div>
+          <div class="col-md-12 border d-sm-flex align-items-center">
+            <img class="img-fluid rounded-circle imgc"  [src]="sksinghpath" alt="">
+            <span class="text1">{{WbKolkata}}<button type="button" class=" btn-outline-primary m-2 float-end">Contact Now</button></span>
+        </div>
+      </div>
+
+       
+      </mat-card-content>
+      
+    </mat-card>
+  
+  
+  </mat-tab>
+  <mat-tab label="Bihar">   <div class="container">
+    <div class="col-md-12 border d-sm-flex align-items-center border-black border-2" style=" border: 4px solid #9B5DE5;">
+    
+        <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+        <span class="text1">{{BrSiwan1}} <button type="button" class=" btn-outline-primary m-2 float-end ">Contact Now</button></span>
+   
+  </div>
+    <div class="col-md-12 border d-sm-flex align-items-center">
+      <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+      <span class="text1">{{BrSiwan2}} <button type="button" class=" btn-outline-primary m-2 float-end ">Contact Now</button></span>
+  </div>
+  <div class="col-md-12 border d-sm-flex align-items-center border-black border-2" style=" border: 4px solid #9B5DE5;">
+    <div class=" ">
+      <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+      <span class="text1">{{BrSiwan3}} <button type="button" class=" btn-outline-primary m-2 float-end ">Contact Now</button></span>
+  </div>
+</div>
+<div class="col-md-12 border d-sm-flex align-items-center border-black border-2" style=" border: 4px solid #9B5DE5;">
+  <div class=" ">
+    <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+    <span class="text1">{{BrSiwan4}} <button type="button" class=" btn-outline-primary m-2 float-end ">Contact Now</button> </span>
+</div>
+</div>
+</div>
+</mat-tab>
+  <mat-tab label="Jharkhand">  <div class="container">
+    <div class="col-md-12 border d-sm-flex align-items-center border-black border-2" style=" border: 4px solid #9B5DE5;">
+      <div class=" ">
+        <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+        <span class="text1">{{JrBokaro}} <button type="button" class=" btn-outline-primary m-2 float-end">Contact Now</button></span>  
+    </div>
+  </div>
+    <div class="col-md-12 border d-sm-flex align-items-center">
+      <img class="img-fluid rounded-circle imgc"  [src]="nopath" alt="">
+      <span class="text1">{{JrDhanbad}} <button type="button" class=" btn-outline-primary m-2 float-end">Contact Now</button> </span> 
+  </div>
+</div>
+ </mat-tab>
+  <mat-tab label="Utttar Pradesh"> Uttar Pradesh </mat-tab>
+  <mat-tab label="Orisa"> Orisa </mat-tab>
+ 
+</mat-tab-group>
+
+    </div>
+  
+  </div>
+  </section>
+  </div>
+
+
+
+
